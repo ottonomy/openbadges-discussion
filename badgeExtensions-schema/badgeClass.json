@@ -8,9 +8,7 @@
   "extensions": [
   {
     "schema": {
-     "title": "Badge Age Target",
      "reference": "http://this-domain.org/schema-age-target-v0.5.json",
-     "version": "0.5",
      "checksum": "sha1$cafbfd764fcdab3c238234746cb32938cbffada3"
      },
      "content": {
