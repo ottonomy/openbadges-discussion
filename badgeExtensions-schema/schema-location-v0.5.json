@@ -30,11 +30,8 @@
               "zip_postal_code": {"type": "string"},
               "country": {"type": "string"},
               "geo_location": {
-                "type": "object",
-                "properties": {
-                  "latitude": { "type": "number" },
-                  "longitude": { "type": "number" }
-                }
+                "description": "Geographic coordinates of the opportunity",
+                "$ref": "http://json-schema.org/geo"
               }
             }
           }
