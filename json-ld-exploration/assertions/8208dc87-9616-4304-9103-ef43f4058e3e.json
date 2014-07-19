@@ -1,0 +1,18 @@
+{
+	"@context": "http://ottonomy.net/manualbadges/jsonld/context.json",
+	"uid": "8208dc87-9616-4304-9103-ef43f4058e3e",
+	"recipient": {
+		"type": "email",
+		"hashed": true,
+		"salt": "maldon",
+		"identity": "sha256$92e0c394cfcb546f1ef4cca3e0e368c9df52b16a660ec49a4e5a2a1855169f09"
+	},
+	"image": "http://ottonomy.net/manualbadges/jsonld/assertions/8208dc87-9616-4304-9103-ef43f4058e3e.png",
+	"evidence": "http://ottonomy.net/manualbadges/jsonld/evidence/8208dc87.html",
+	"issuedOn": "2014-07-19T12:04:13-07:00",
+	"badge": "http://ottonomy.net/manualbadges/jsonld/badges/jsonld-badge.json",
+	"verify": {
+		"type": "hosted",
+		"url": "http://ottonomy.net/manualbadges/jsonld/assertions/8208dc87-9616-4304-9103-ef43f4058e3e.json"
+	}
+}

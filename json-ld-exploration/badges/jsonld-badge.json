@@ -1,0 +1,8 @@
+{
+  "@context": "http://ottonomy.net/manualbadges/jsonld/context.json",
+  "name": "JSON-LD Exploration Badge",
+  "description": "For investigating how the Open Badges Standard could be enhanced with linked data.",
+  "image": "http://ottonomy.net/manualbadges/jsonld/badges/jsonld-badge.png",
+  "criteria": "http://ottonomy.net/manualbadges/jsonld/badges/jsonld-badge.html",
+  "issuer": "http://ottonomy.net/manualbadges/jsonld/organization.json"
+}
