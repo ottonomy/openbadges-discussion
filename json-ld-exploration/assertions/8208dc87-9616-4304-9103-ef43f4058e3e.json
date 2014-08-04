@@ -1,5 +1,8 @@
 {
-	"@context": "http://ottonomy.net/manualbadges/jsonld/context.json",
+	"@context": [
+		"http://ottonomy.net/manualbadges/jsonld/standard.json",
+		{ "arbitraryExtension": "http://ottonomy.net/manualbadges/jsonld/arbitraryExtension.json" }
+	],
 	"uid": "8208dc87-9616-4304-9103-ef43f4058e3e",
 	"recipient": {
 		"type": "email",
@@ -14,5 +17,6 @@
 	"verify": {
 		"type": "hosted",
 		"url": "http://ottonomy.net/manualbadges/jsonld/assertions/8208dc87-9616-4304-9103-ef43f4058e3e.json"
-	}
+	},
+	"arbitraryExtension": "cheese"
 }

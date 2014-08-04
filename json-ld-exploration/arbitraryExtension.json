@@ -1,0 +1,11 @@
+{
+	"@context": {
+		"arbitraryExtension": "http://fakeschema.org/TypeOfFood"
+	},
+	"@id": "http://ottonomy.net/manualbadges/jsonld/arbitraryExtension.json/#",
+	
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "http://ottonomy.net/manualbadges/jsonld/arbitraryExtension.json/#",
+	"type": "string",
+	"description": "A silly extension that allows an issuer to specify what food is most similar to the issued badge."
+}
