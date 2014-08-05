@@ -29,8 +29,14 @@
     - I very much think we should not use the "@value" + "@type" method of doing this (example 22 on http://www.w3.org/TR/json-ld ), because that dumps the ugly right into the values of the badge objects rather than separating them nicely to the context.
 * A JSON-LD document may have multiple contexts, just may not define a new one within another "@context" object.
 * Combining external and local contexts. (This will probably be quite useful for us)
+    - Example 29 on http://www.w3.org/TR/json-ld/#dfn-active-context will be most useful I bet. ("Combining external and local contexts" with an array)
     - Multiple contexts may be defined with an array (of IRIs or objects).
     - "Active context" is the accumulation of contexts defined in this array.
         + Contexts are processed in order, so later-defined contexts complement and override previous contexts in the array.
-    - 
+
+## Questions to forward to a JSON-LD Expert
+* What is expected to live at the end of a context reference if not JSON-LD, and how can it cooperate with automatically providing JSON-schema to run verification against? Should we link a JSON-schema document that also has a @context object?
+* JSON pointers are used in JSON-schema to indicate which fragment within the document's structure is targeted. Can JSON-LD point to one of these?
+* How should we locate the context and schema files for the Assertion, Badge Class and Issuer Organization objects?
+    
 
